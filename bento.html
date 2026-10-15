@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bento Grid Demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <style>
+    body {
+      background-color: #e8e6e1;
+    }
+    .card {
+      background-color: #ffffff;
+      border: none;
+      border-radius: 20px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+      overflow: hidden;
+      padding: 0 !important;
+      position: relative;
+    }
+
+    .bento-tall {
+      height: 420px;
+    }
+    .bento-top-wide {
+      height: 190px;
+    }
+    .bento-mid {
+      height: 210px;
+    }
+    .bento-bottom {
+      height: 190px;
+    }
+
+    .card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .bento-brown-card {
+      background-color: #8B5A2B; 
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.8rem;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container py-5">
+    <div class="row g-3 mb-3">
+      <div class="col-lg-4">
+        <div class="card bento-tall">
+          <img src="music1.jpg" alt="Music">
+        </div>
+      </div>
+
+      <div class="col-lg-8">
+        <div class="row g-3 mb-3">
+          <div class="col-12">
+            <div class="card bento-top-wide">
+              <img src="dance1.jpg" alt="Dance">
+            </div>
+          </div>
+        </div>
+
+        <div class="row g-3">
+          <div class="col-md-6">
+            <div class="card bento-mid bento-brown-card">
+              Хобби
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card bento-mid">
+              <img src="writing1.jpg" alt="Writing">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row g-3">
+      <div class="col-lg-8">
+        <div class="card bento-bottom">
+          <img src="reading1.jpg" alt="Reading">
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card bento-bottom">
+          <img src="journal1.jpg" alt="Journal">
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
